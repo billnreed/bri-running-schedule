@@ -3,7 +3,50 @@
   <head>
     <meta charset="utf-8">
     <title>Bri Running Schedule</title>
-    <link rel="stylesheet" href="/main.css">
+    <style media="screen">
+      * {
+        margin: 0;
+        padding: 0;
+
+        box-sizing: border-box;
+
+        font-size: 12px;
+      }
+
+      h1, h2 {
+        font-size: 16px;
+      }
+
+      .running-schedule {
+        width: 100%;
+      }
+
+      .week {
+
+      }
+
+      .week:nth-child(even) {
+        background-color: #eee;
+      }
+
+      .week-label {
+        font-weight: 600;
+        padding: 0 10px;
+      }
+
+      .day {
+        padding: 25px 10px;
+        /*text-align: center;*/
+      }
+
+      .day-type {
+        font-weight: 600;
+      }
+
+      .day-description {
+        margin-top: 20px;
+      }
+    </style>
   </head>
   <body>
     <table class="running-schedule">
